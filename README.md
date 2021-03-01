@@ -32,14 +32,16 @@ Grand Total		839	493	37		1369
 ###Outcomes Based on Goals
 	This part of the analysis involved using the COUNTIFS ( ) function in Excel to collect the outcomes and goal data for the “plays” subcategory from the Kickstarter worksheet, in order to visualize the percentage of successful, failed, and canceled plays based on the funding goal amount.  Using the COUNTIFS ( ) function correctly was the main challenge for this part of the analysis, as a simple mistake in the syntax can lead to inaccuracies in the results. One of the main challenges I faced was filtering the subcategory by “plays” in the function in order to get the correct values for campaign outcomes. I tried filtering the Kickstarter data, but that would not be the best approach for getting all three columns of outcomes. In the end, I figured out how to filter by “plays” in the function (see Fig. 2). Once this was sorted, I simply selected the appropriate data to create a line chart which visualizes outcomes based on goal. 
  
-![countifs_] (resources/countifs_.jpg)
+![countifs_](https://user-images.githubusercontent.com/45697471/109448255-876d8100-7a13-11eb-8bdc-7a0d3b87c1ba.jpg)
+
 
 ##Results 
 ###Theater Outcomes
 	Analysis of the relationship between theater outcomes and the launch date of the campaigns between 2009 and 2017 shows that there are more successful campaigns than there are failed or cancelled ones across the year. If we look at Fig. 3, the line representing successful campaigns never touches or falls below the lines for failed or canceled campaigns. 
 
 
-![Theater_Outcomes_vs_Launch] (resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/45697471/109448267-8b010800-7a13-11eb-8664-6936f2558e5f.png)
+
 
 
 Another conclusion we can draw from the data is that the number of successful campaigns is most likely to be at its peak between the months of May and June. If we look at the graph above, we can see that in these months the number of successful campaigns spikes up to between 100 and 111 campaigns. This means that these months are the best time to launch a campaign.
@@ -49,7 +51,7 @@ Goal Based Outcomes
 	Analysis of the relationship between the percentage of successful, failed, and canceled campaigns and the campaign goal from $1 – $50,000+, we can see that the most successful campaigns for plays typically have a goal between $1 to $5,000. If we look at the graph in Fig. 4, we can see that at this range, the percentage of successful campaigns is between 73% to 76%, which is higher than any other goal range. We see an increase in successes between the $35,000 to $44,999 range at 67% as well, but after this the graph has a negative slope. 
 
 
-![Outcomes_vs_Goals] (resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/45697471/109448274-8dfbf880-7a13-11eb-8da8-e72f105b62b4.png)
 
 
 
