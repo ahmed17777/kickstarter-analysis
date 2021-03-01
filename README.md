@@ -6,26 +6,14 @@ February 28, 2021
 	The purpose of this analysis was to help Louise figure out how different Kickstarter campaigns fared in relation to their launch dates and their funding goals. In this report, I will be analyzing the Kickstarter dataset using Excel to visualize campaign outcomes as they relate to their launch dates and funding goals. 
 
 ##Analysis and Challenges
+
 ###Theater Outcomes Based on Launch Date
 	My first challenge was to create a Pivot Table that summarized the count of outcomes (failures, cancellations, and successes) by month for theater campaigns. This involved using the Kickstarter data in order to create a Pivot Table (see fig. 1) and filtering the table based on “parent category” (theater) and “years”, which was used to extract the monthly row labels. Once the data was correctly sorted and filtered, a line chart was created in order to visualize the relationship between theater outcomes based on launch dates. The most challenging part of this process was to setup the row labels in order to show months of the year, as there was no direct method of showing months of the year in the row labels section. To achieve this, I had to use “date created conversion” in the row field and group the rows in the Pivot Table to show months. Once this was sorted, I simply selected the data to create a Pivot Chart.  
 Parent Category	theater			
 Years	(All)			
 				
-Count of outcomes	Column Labels			
-Row Labels	successful	failed	canceled	Grand Total
-Jan			56	33	7		96
-Feb			71	39	3		113
-Mar			56	33	3		92
-Apr			71	40	2		113
-May			111	52	3		166
-Jun			100	49	4		153
-Jul			87	50	1		138
-Aug			72	47	4		123
-Sep			59	34	4		97
-Oct			65	50			115	
-Nov			54	31	3		88
-Dec			37	35	3		75
-Grand Total		839	493	37		1369
+![table](https://user-images.githubusercontent.com/45697471/109448558-3ca03900-7a14-11eb-8025-d3e30b7d2e31.png)
+
 
 
 ###Outcomes Based on Goals
@@ -35,6 +23,7 @@ Grand Total		839	493	37		1369
 
 
 ##Results 
+
 ###Theater Outcomes
 	Analysis of the relationship between theater outcomes and the launch date of the campaigns between 2009 and 2017 shows that there are more successful campaigns than there are failed or cancelled ones across the year. If we look at Fig. 3, the line representing successful campaigns never touches or falls below the lines for failed or canceled campaigns. 
 
