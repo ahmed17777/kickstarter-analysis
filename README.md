@@ -2,6 +2,8 @@
 Syed Ahmed
 February 28, 2021
  
+
+
 ##Overview 
 	The purpose of this analysis was to help Louise figure out how different Kickstarter campaigns fared in relation to their launch dates and their funding goals. In this report, I will be analyzing the Kickstarter dataset using Excel to visualize campaign outcomes as they relate to their launch dates and funding goals. 
 
